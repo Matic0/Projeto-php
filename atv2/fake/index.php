@@ -1,23 +1,26 @@
 <?php
-#versão 1
+#versão 2.0 //Modo Form input
 $frase = "";
 
 $vetor1 = [
-    "água com limão", "Bacon", "Cúrcuma", "Doce de leite",
-    "Azeite",
-    "Frango",
-    "Gengibre"
+    1 => "água com limão",
+    2 => "Bacon",
+    3 => "Cúrcuma",
+    4 => "Doce de leite",
+    5 => "Azeite",
+    6 => "Frango",
+    7 => "Gengibre"
 ];
 
 $vetor2 = [
-    "ao acordar",
-    "pré-treino",
-    "injetável",
-    "no cabelo",
-    "em Jejum",
-    "de 3 em 3 horas",
-    "no chá",
-    "no café"
+    1 => "ao acordar",
+    2 => "pré-treino",
+    3 => "injetável",
+    4 => "no cabelo",
+    5 => "em Jejum",
+    6 => "de 3 em 3 horas",
+    7 => "no chá",
+    8 => "no café"
 ];
 
 $vetor3 = [

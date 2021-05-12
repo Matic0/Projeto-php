@@ -32,14 +32,14 @@
 <body>
 
     <?php foreach ($pokemons as $poke) : ?>
-        <div class="card">
+        <div class="card" >
 
             <center>
             <img src="<?= $poke['imagem'] ?>" alt="">
-            <h5><?= $poke['nome'] ?></h5></center>
+            <h5><?= $poke['nome'] ?></h5>
             <p>altura: <?= $poke['altura'] ?> cm.</p>
             <p>peso: <?= $poke['peso'] ?> grs.</p>
-            <p>habilidades: </p>
+            <p>habilidades: </p></center>
 
             <ul>
                 <?php foreach ($poke['habilidade'] as $hab) : ?>

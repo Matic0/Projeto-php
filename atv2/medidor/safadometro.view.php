@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+body {  background-color: pink;
+}</style>
 
 <head>
     <meta charset="UTF-8">
@@ -8,15 +11,15 @@
     <title>Document</title>
 </head>
 
-<body>
+<body  background-color: pink>
  <center>
-  <h2>Teorema de Wesley Saf.</h2>
+  <h2>Teorema de Wesley S.</h2>
 
     <form action="index.php" method="GET">
 
-        <input type="quanty" name="campo_dia" placeholder="dia" max = 31> <br />
-        <input type="quanty" name="campo_mes" placeholder="mes" max = 12> <br />
-        <input type="quanty" name="campo_ano" placeholder="ano" min = 1920 max = 2022> <br />
+        <input type="number" name="campo_dia" placeholder="dia" max = 31> <br />
+        <input type="number" name="campo_mes" placeholder="mes" max = 12> <br />
+        <input type="number" name="campo_ano" placeholder="ano" min = 1920 max = 2022> <br />
         <input type="submit">
 
     </form>

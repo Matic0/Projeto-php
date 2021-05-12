@@ -17,12 +17,13 @@
 
     </form>
 
-
+   <?php if (! empty($dados)) :?>
     <h2><?= $nome ?></h2>
     <p>temperatura: <?= $temperatura ?></p>
     <p>sensação: <?= $sensacao ?></p>
     <p>umidade: <?= $umidade ?></p>
     <p>velocidade do vento: <?= $velocidade ?></p>
+   <?php endif; ?>
 
 </body>
 
